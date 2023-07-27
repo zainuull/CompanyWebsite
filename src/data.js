@@ -1,10 +1,15 @@
 // import alat images
 // Ready
-import slide1 from './assets/img/ready/Komatsu D65P-11/D65P-11 gambar 1.jpg';
-import slide2 from './assets/img/ready/Komatsu D65P-11/D65P-11 gambar 2.jpg';
-import slide3 from './assets/img/ready/Komatsu D65P-11/D65P-11 gambar 3.jpg';
-import slide4 from './assets/img/ready/Komatsu D65P-11/D65P-11 gambar 4.jpg';
+import slide1_1 from './assets/img/ready/Dynapac CC 222/CC 222 gambar 1.jpg';
+import slide1_2 from './assets/img/ready/Dynapac CC 222/CC 222 gambar 2.jpg';
+import slide2_1 from './assets/img/ready/Dynapac CC 224HF/CC 224HF gambar 1.jpg';
+import slide2_2 from './assets/img/ready/Dynapac CC 224HF/CC 224HF gambar 2.jpg';
+import slide3_1 from './assets/img/ready/Niigata NFB6W 4,5m/NFB6W 4,5m gambar 1.jpg';
+import slide3_2 from './assets/img/ready/Niigata NFB6W 4,5m/NFB6W 4,5m gambar 2.jpg';
+import slide4_1 from './assets/img/ready/Sakai TS 205/TS 205 gambar 1.jpg';
+import slide4_2 from './assets/img/ready/Sakai TS 205/TS 205 gambar 2.jpg';
 // Sold Out
+import soldout9 from './assets/img/soldout/Komatsu D65P-11/D65P-11 gambar 1.jpg';
 import soldout1 from './assets/img/soldout/Komatsu D85SS-1/D85SS-1 gambar 1.jpg';
 import soldout2 from './assets/img/soldout/Hitachi Zaxis 200/Zaxis 200 gambar 1.jpg';
 import soldout3 from './assets/img/soldout/Caterpillar 320C/Sold Out to Majalengka/320C gambar 1.jpg';
@@ -16,39 +21,146 @@ import soldout8 from './assets/img/soldout/Caterpillar 320C + instalasi breaker/
 
 // import agents images
 import founder from './assets/img/agents/founder.jpg';
+import testi1 from './assets/img/agents/me.jpeg';
 
 // Icons
 import { BsCheckCircle } from 'react-icons/bs';
 export const itemReady = [
-  // {
-  //   id: 1,
-  //   type: 'Dozer',
-  //   name: 'Komatsu D65P-11',
-  //   detail: {
-  //     merek: 'Komatsu',
-  //     tipe: 'D65P-11',
-  //     kondisi: 'Second',
-  //     unit: 'Ready to work',
-  //     berat: '16,5 Tons',
-  //     deskripsi: 'For more detais, contact the contact listed !',
-  //   },
-  //   image: {
-  //     slide1: slide1,
-  //     slide2: slide2,
-  //     slide3: slide3,
-  //     slide4: slide4,
-  //   },
-  //   status: 'Ready',
-  //   mesin: <BsCheckCircle className="text-green-500" />,
-  //   surat: 'Invoice',
-  //   tahun: '2002',
-  //   price: '325.000.000',
-  //   agent: {
-  //     image: founder,
-  //     name: 'Ulun Syahroni',
-  //     phone: '081228134488',
-  //   },
-  // },
+  {
+    id: 1,
+    type: 'Tandem Roller',
+    name: 'Dynapac CC 224HF',
+    detail: {
+      merek: 'Dynapac',
+      tipe: 'CC 224HF',
+      kondisi: 'Second build up',
+      unit: 'Ready to work',
+      berat: '8-10 Tons',
+      deskripsi: 'For more detais, contact the contact listed !',
+    },
+    image: {
+      slide1: slide2_1,
+      slide2: slide2_2,
+    },
+    status: 'Ready',
+    mesin: <BsCheckCircle className="text-green-500" />,
+    surat: 'Importir',
+    tahun: '2023',
+    price: 'Call',
+    agent: {
+      image: founder,
+      name: 'Ulun Syahroni',
+      phone: '081228134488',
+    },
+  },
+  {
+    id: 1,
+    type: 'Tandem Roller',
+    name: 'Dynapac CC 224HF',
+    detail: {
+      merek: 'Dynapac',
+      tipe: 'CC 224HF',
+      kondisi: 'Second build up',
+      unit: 'Ready to work',
+      berat: '8-10 Tons',
+      deskripsi: 'For more detais, contact the contact listed !',
+    },
+    image: {
+      slide1: slide2_1,
+      slide2: slide2_2,
+    },
+    status: 'Ready',
+    mesin: <BsCheckCircle className="text-green-500" />,
+    surat: 'Importir',
+    tahun: '2023',
+    price: 'Call',
+    agent: {
+      image: founder,
+      name: 'Ulun Syahroni',
+      phone: '081228134488',
+    },
+  },
+  {
+    id: 2,
+    type: 'Tandem Roller',
+    name: 'Dynapac CC 222',
+    detail: {
+      merek: 'Dynapac',
+      tipe: 'CC 222',
+      kondisi: 'Second build up',
+      unit: 'Ready to work',
+      berat: '6-8 Tons',
+      deskripsi: 'For more detais, contact the contact listed !',
+    },
+    image: {
+      slide1: slide1_1,
+      slide2: slide1_2,
+    },
+    status: 'Ready',
+    mesin: <BsCheckCircle className="text-green-500" />,
+    surat: 'Importir',
+    tahun: '2015',
+    price: 'Call',
+    agent: {
+      image: founder,
+      name: 'Ulun Syahroni',
+      phone: '081228134488',
+    },
+  },
+  {
+    id: 3,
+    type: 'Ashpalt Finisher',
+    name: 'Niigata NFB6W 4,5m',
+    detail: {
+      merek: 'Niigata',
+      tipe: 'NFB6W 4,5m',
+      kondisi: 'Second build up',
+      unit: 'Ready to work',
+      berat: '11 Tons',
+      deskripsi: 'For more detais, contact the contact listed !',
+    },
+    image: {
+      slide1: slide3_1,
+      slide2: slide3_2,
+    },
+    status: 'Ready',
+    mesin: <BsCheckCircle className="text-green-500" />,
+    surat: 'Importir',
+    tahun: '2018',
+    price: 'Call',
+    agent: {
+      image: founder,
+      name: 'Ulun Syahroni',
+      phone: '081228134488',
+    },
+  },
+  {
+    id: 4,
+    type: 'Tire Roller',
+    name: 'Sakai TS 205',
+    detail: {
+      merek: 'Sakai',
+      tipe: 'TS 205',
+      kondisi: 'Second',
+      unit: 'Ready to work',
+      berat: '15 Tons',
+      deskripsi: 'For more detais, contact the contact listed !',
+    },
+    image: {
+      slide1: slide4_1,
+      slide2: slide4_2,
+    },
+    status: 'Ready',
+    mesin: <BsCheckCircle className="text-green-500" />,
+    surat: 'SPH',
+    tahun: '2015',
+    price: 'Call',
+    agent: {
+      image: founder,
+      name: 'Ulun Syahroni',
+      phone: '081228134488',
+    },
+  },
 ];
 
 export const itemTerjual = [
@@ -58,12 +170,12 @@ export const itemTerjual = [
     name: 'Komatsu D65P-11',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
-    image: slide1,
+    image: soldout9,
     status: 'Sold Out',
     mesin: <BsCheckCircle className="text-green-500" />,
     surat: 'Invoice',
     tahun: '2002',
-    price: '325.000.000',
+    price: '300.000.000',
     agent: {
       image: founder,
       name: 'Ulun Syahroni',
@@ -229,11 +341,11 @@ export const testimoniData = [
   {
     id: 1,
     people: {
-      image: founder,
-      name: 'Ulun Syahroni',
-      phone: '081228134488',
+      image: testi1,
+      name: 'Zainul',
+      phone: '088298813114',
     },
     description: 'Barang sudah diterima dengan baik, dan semua berfungsi dengan baik',
-    country: 'Bekasi',
+    country: 'Cikarang',
   },
 ];

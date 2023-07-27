@@ -10,7 +10,7 @@ const Header = () => {
     <header className="py-6 mb-6 border-b-2">
       <div className="px-4 flex items-center justify-between lg:px-8">
         <Link to="/">
-          <h1 className="font-semibold tracking-wider text-lg lg:text-2xl tracking-widest">ULUN SYAHRONI</h1>
+          <h1 className="font-semibold tracking-wider text-lg lg:text-4xl lg:tracking-widest">ULUN SYAHRONI</h1>
         </Link>
         <div className="flex items-center gap-x-4 lg:gap-x-6">
           <Link

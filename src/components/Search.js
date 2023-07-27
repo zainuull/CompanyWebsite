@@ -12,8 +12,8 @@ const Search = () => {
 
   return (
     <div
-      className="px-[30px] py-6 max-w-[1170px] mx-auto flex flex-col lg:flex-row justify-evenly gap-4 lg:gap-x-3 relative lg:-top-4 lg:shadow-1
-  bg-white lg:bg-transparent lg:backdrop-blur rounded-lg"
+      className="px-[30px] py-6 max-w-[1170px] mx-auto flex flex-col lg:flex-row justify-evenly gap-4 lg:gap-x-3 relative lg:shadow-1
+  bg-white lg:bg-transparent lg:backdrop-blur rounded-lg lg:mt-6"
     >
       <TypeDropdown />
       <PriceRangeDropdown />

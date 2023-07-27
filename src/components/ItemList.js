@@ -24,7 +24,7 @@ const HouseList = () => {
     return <div className="mx-auto text-center mt-[120px] text-xl text-gray-400 font-semibold mb-[500px]">Sorry, Item not available.</div>;
   }
   return (
-    <section className="mb-20">
+    <section className="mb-20 lg:mt-0">
       <div className="container mx-auto">
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-8">
           {items.map((item, index) => {

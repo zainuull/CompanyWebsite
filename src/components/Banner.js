@@ -7,9 +7,9 @@ import Search from '../components/Search';
 
 const Banner = () => {
   return (
-    <section className="h-full max-h-[640px] mb-8 xl:mb-24">
+    <section className="h-full max-h-[640px] mb-20 xl:mb-12">
       <div className="flex flex-col lg:flex-row">
-        <div className="flex flex-col items-center text-center px-8 justify-center flex-1 lg:items-start lg:text-left">
+        <div className="flex flex-col items-center text-center px-4 justify-center flex-1 lg:items-start lg:text-left">
           <h1 className="text-4xl lg:text-[45px] leading-[50px] font-semibold mb-6">
             <span className="text-[var(--primary)]">Good Buildings</span> Are Built With Good Tools
           </h1>

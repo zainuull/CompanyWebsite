@@ -5,7 +5,7 @@ import ItemList from '../components/ItemList';
 
 const Home = () => {
   return (
-    <section className=''>
+    <section className='px-4'>
       <div>
         <Banner />
         <ItemList/>
